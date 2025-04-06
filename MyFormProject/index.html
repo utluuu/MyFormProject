@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Form</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>Contact Form</h2>
+
+        <form action="#" method="post">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" name="" id="email" required /><br /><br />
+
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
+
+          <label for="gender">Gender:</label><br />
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option></select
+          ><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea name="message" id="message" rows="5" cols="20"></textarea
+          ><br /><br />
+
+          <input type="checkbox" id="terms" name="termes" required /><br />
+          <label for="terms">"I accept the terms and conditions."</label
+          ><br /><br />
+
+          <button type="submit">Submit</button>
+          
+        </form>
+      </article>
+    </main>
+
+    <footer>      
+            <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
